@@ -1,6 +1,6 @@
 /* No CSS *//*# sourceMappingURL=main.css.map */
 body {
-	background-color: #E4E6EB;
+	background-color: #FFF;
     font-family: 'Assistant', sans-serif;
     color: #071C4D;
 
@@ -57,12 +57,12 @@ header p {
 	font-size: 22px;
 }
 
-.btn-getstarted {
+header .btn-getstarted {
 	background-color: #FF9E53;
 	color: #fff;
 }
 
-.btn-getstarted:hover {
+header .btn-getstarted:hover {
 	background-color: #ffaa69;
 	color: #fff;
 }
@@ -104,7 +104,7 @@ header p {
 }
 
 .section-popular .section-popular-heading h2, p {
-	color: #fff;
+	color: #051334;
 }
 
 .section-popular .section-popular-heading h2 {
@@ -114,6 +114,7 @@ header p {
 
 .section-popular .section-popular-heading p {
 	font-size: 18px;
+
 }
 
 .section-popular-content .section-popular-travel .card-travel{
@@ -123,7 +124,7 @@ header p {
 	padding: 30px;
 	background-size: cover;
 	margin-bottom: 140px;
-	margin-top: 50px;
+	margin-top: 80px;
 
 }
 
@@ -146,4 +147,97 @@ header p {
 .section-popular-content .section-popular-travel .travel-button .btn-travel-details:hover {
 	background-color: #FFAE6F;
 	color: #fff;
+}
+
+.section-networks {
+	background-color: #fff;
+	margin-top: -170px;
+	padding-top: 240px;
+	padding-bottom: 50px;
+}
+
+.section-networks h2 {
+	font-weight: bold;
+	font-family: 'Playfair Display', serif;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+.section-networks img {
+	max-width: 100%;
+}
+
+.section-testimonial-heading {
+	background-color: #fff;
+	padding-top: 50px;
+	min-height: 506px;
+}
+
+.section-testimonial-heading h2 {
+	font-family: "Playfair Display", serif;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+.section-testimonial-heading p {
+	font-size: 18px;
+}
+
+
+.section-testimonial-content {
+	margin-top: -300px;
+	padding-bottom: 50px;
+}
+
+.section-testimonial-content .card-testimonial {
+	padding: 40px 20px 10px;
+	border-radius: 11px;
+	margin-bottom: 20px;
+}
+
+.section-testimonial-content .card-testimonial .testimonial-content {
+	min-height: 380px;
+}
+
+.section-testimonial-content .card-testimonial h3 {
+	font-size: 22px;
+}
+
+.section-testimonial-content .card-testimonial .testimonial {
+	font-weight: 200;
+	font-size: 26px;
+	text-align: center;
+	color: #6e6e6e;
+	min-height: 160px;
+}
+
+.section-testimonial-content .card-testimonial .trip-to {
+	font-weight: normal;
+	font-size: 22px;
+	color: #6e6e6e;
+}
+
+.section-testimonial-content .card-testimonial hr {
+	margin-left: -20px;
+	margin-right: -20px;
+}
+
+.section-testimonial-content .btn-get-started {
+	background-color: #FF9E53;
+	color: #fff;
+}
+
+.section-testimonial-content .btn-get-started:hover {
+	background-color: #ffaa69;
+	color: #fff;
+}
+
+.section-testimonial-content .btn-need-help {
+	background-color: #F2F2F2;
+	color: #C3C3C3;
+}
+
+.section-testimonial-content .btn-need-help:hover {
+	background-color: #FAFAFA;
+	color: #C3C3C3;
 }
