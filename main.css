@@ -241,3 +241,15 @@ header .btn-getstarted:hover {
 	background-color: #FAFAFA;
 	color: #C3C3C3;
 }
+
+
+/* Footer */
+.section-footer h5 {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.section-footer a {
+	color: #071C4D;
+	text-transform: capitalize;
+}
