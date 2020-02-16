@@ -253,3 +253,70 @@ header .btn-getstarted:hover {
 	color: #071C4D;
 	text-transform: capitalize;
 }
+
+
+/* Halaman details */
+
+/* Main */
+.section-details-header {
+	min-height: 310px;
+	background: #E4E6EB;
+	margin-top: -70px;
+}
+
+.section-details-content {
+	margin-top: -210px;
+	min-height: 100vh;
+}
+
+.section-details-content .breadcrumb {
+	background-color: transparent;
+	padding: 0;
+	margin-bottom: 30px;
+}
+
+.section-details-content .breadcrumb-item:hover {
+	font-weight: bold;
+	color: red;
+}
+
+.section-details-content .card-details {
+	padding: 30px;
+	border-radius: 11px;
+}
+
+.section-details-content .card-details h1 {
+	font-size: 26px;
+}
+
+.section-details-content .card-details h2 {
+	font-size: 20px;
+}
+
+.section-details-content .card-details p {
+	color: #B1B1B1;
+	font-size: 18px;
+}
+
+.section-details-content .card-details .features {
+	margin-top: 20px;
+	
+}
+
+.section-details-content .card-details .features h3 {
+	font-size: 18px;
+	color: #071C4D;
+	
+}
+
+.section-details-content .card-details .features .description {
+	margin-left: 10px;
+	overflow: hidden;
+	float: left;
+}
+
+.section-details-content .card-details .features .description .features-image {
+	width: 45px;
+	height: 45px;
+	float: left;
+}
